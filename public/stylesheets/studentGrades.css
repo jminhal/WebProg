@@ -1,0 +1,53 @@
+.box{
+        color:white;
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        width: 250px;
+        background-color: #80b3ff;
+        display: flex;
+
+        
+}
+.box section h2{
+        color:#6e0005;
+        margin: 0;
+}
+.box section p{
+        color:#6e0005;
+}
+.square{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 25px;
+        height: 25px;
+        background-color:#ff6666;
+        margin-right: 10px;
+}
+
+#grades{
+        display: flex;
+}
+
+.boxVermelha{
+        color:white;
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        width: 250px;
+        background-color: #ec1212;
+        display: flex;
+}
+
+.boxVermelha section h2{
+        color:#6e0005;
+        margin: 0;
+
+}
+.boxVermelha section p{
+        color:#6e0005;
+
+
+}

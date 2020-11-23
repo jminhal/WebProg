@@ -2,30 +2,37 @@
 
 <head>
   <title>Learning Platform</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="javascripts/grading.js"></script>
 </head>
-
 <body>
-  <header>
-    <img src="./images/student.png" alt="Italian Trulli">
-    <h1>Learning Platform</h1>
-    <h2>This platform will help you manage your classes</h2>
-
-  </header>
-  <nav>
-
-  </nav>
-  
-  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
-
-  <main>
-
+  <header class="colorVioletB "> 
+    <a href="index.html"> <img id="studImg" src="./images/student.png" alt="Stud Img"></a>
+    <section id="section"class="colorBranco">
+        <h1>Learning Platform</h1>
+        <h3 id ="student"></h3>
+    </section>
+    </header>
+    <main>
+      <form>
+        <label for="sName">Student Name:</label>
+        <input type="text" id="sName" name="sName"><br>
+        <label for="uName">Unit Name:</label>
+        <input type="text" id="uName" name="uName"><br>
+        <label for="pGrade">Project Grade:</label>
+        <input type="number" min="0" max="20" id="pGrade" step="0.1" name="pGrade"><br>
+        <label for="ppGrade">percentage:</label>
+        <input type="number" min="0" max="1" step="0.1" id="ppGrade" name="ppGrade"><br>
+        <label for="tGrade">Test Grade:</label>
+        <input type="number" id="tGrade" min="0" max="20" step="0.1" name="tGrade"><br>
+        <label for="ptGrade">percentage:</label>
+        <input type="number" min="0" max="1" step="0.1" id="ptGrade" name="ptGrade"><br>
+        <input type="button" value="Calculate" onclick="calcula()">
+        <input type="button" value="Reset"onclick="reseta()">
+        </form>
+        <p id="info"></p>
+        
     </main>
-  <footer>
-
-  </footer>
-
-
-
-
 </body>
+
+</html>
