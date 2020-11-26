@@ -1,3 +1,22 @@
+
+.header{
+        grid-area: header;
+}
+.nav{
+        grid-area: nav;
+}
+.main{
+        grid-area: main;
+}
+
+.grid{
+      display: grid;
+      grid-template-columns: 10% auto;  
+      grid-template-areas:
+                          'header header'
+                          'nav main'
+}
+
 .box{
         color:white;
         margin-top: 10px;
@@ -5,9 +24,7 @@
         padding: 10px;
         width: 250px;
         background-color: #80b3ff;
-        display: flex;
-
-        
+    
 }
 .box section h2{
         color:#6e0005;
@@ -38,7 +55,6 @@
         padding: 10px;
         width: 250px;
         background-color: #ec1212;
-        display: flex;
 }
 
 .boxVermelha section h2{
@@ -50,4 +66,17 @@
         color:#6e0005;
 
 
+}
+#summary{
+        color: blueviolet;
+        border-style: solid;
+        border-width: 5px;
+        border-color: blueviolet;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+}
+
+.sectionUnitGrade{
+        display: flex;
 }
