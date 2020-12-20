@@ -1,0 +1,16 @@
+
+#students{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: #ADD8E6;
+    color:blueviolet;
+    width:150px;
+    height: 100px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
